@@ -1,1 +1,7 @@
-上传代码测试
+上传代码步骤
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sunlei19941122/lei.git
+git push -u origin main
