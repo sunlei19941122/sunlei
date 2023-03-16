@@ -1,0 +1,8 @@
+上传代码步骤
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sunlei19941122/lei.git
+git remote rm origin    //!在上传代码出现remote origin already exists时需要输入这行代码
+git push -u origin main
